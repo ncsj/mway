@@ -241,6 +241,7 @@ public class Ex01 extends Frame implements Runnable{
 			fin.close();
 		}
 		catch(Exception e){
+
 		}
 
 		launchDialog = new LaunchDialog(this);
@@ -321,9 +322,7 @@ public class Ex01 extends Frame implements Runnable{
 		for(Point p :  pointlist){
 			Position pos = getPosition(p);
 			if(pos != null){
-			// Font font = new Font(Font.DIALOG_INPUT,Font.PLAIN,12);
-			// Font font = new Font(Font.SERIF, Font.PLAIN, 12);
-				Font font = new Font("ＭＳ 明朝", Font.PLAIN, 18);
+				Font font = new Font(Font.SERIF, Font.PLAIN, 18);
 				g.setFont(font);
 				g.setColor(Color.black);
 				g.drawString(p.name,pos.x,pos.y);

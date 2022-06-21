@@ -122,6 +122,9 @@ public class PointLoader{
 						}
 					}
 				}
+				catch(ArrayIndexOutOfBoundsException e){
+					// System.out.println(e.toString());
+				}
 				catch(Exception e){
 					System.out.println(e.toString());
 				}

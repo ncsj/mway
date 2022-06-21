@@ -29,6 +29,7 @@ public class LoginDialog extends Dialog{
 
 		add(field2);
 		field2.setBounds(100,80,200,20);
+		field2.setEchoChar('*');
 		field2.addKeyListener(new KeyAdapter(){
 			public void keyPressed(KeyEvent e){
 				int key = e.getKeyCode();

@@ -65,19 +65,19 @@ public class Ex01MouseAdapter extends MouseAdapter{
 
 		n.x = n.x + diff.x;
 		n.y = n.y + diff.y;
-		ex01.north = ex01.getPoint(n);
+		Ex01.north = ex01.getPoint(n);
 
 		w.x = w.x + diff.x;
 		w.y = w.y + diff.y;
-		ex01.west = ex01.getPoint(w);
+		Ex01.west = ex01.getPoint(w);
 
 		s.x = s.x + diff.x;
 		s.y = s.y + diff.y;
-		ex01.south = ex01.getPoint(s);
+		Ex01.south = ex01.getPoint(s);
 
 		e.x = e.x + diff.x;
 		e.y = e.y + diff.y;
-		ex01.north = ex01.getPoint(e);
+		Ex01.north = ex01.getPoint(e);
 
 		pos = cur;
 		ex01.initMapData();
