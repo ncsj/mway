@@ -1,0 +1,56 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex01",
+            "request": "launch",
+            "mainClass": "Ex01",
+            "projectName": "mway_3dc34abc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex02",
+            "request": "launch",
+            "mainClass": "Ex02",
+            "projectName": "mway_3dc34abc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex03",
+            "request": "launch",
+            "mainClass": "Ex03",
+            "projectName": "mway_3dc34abc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Longitude",
+            "request": "launch",
+            "mainClass": "Longitude",
+            "projectName": "mway_3dc34abc"
+        },
+        {
+            "type": "java",
+            "name": "Launch PointLoader",
+            "request": "launch",
+            "mainClass": "PointLoader",
+            "projectName": "mway_3dc34abc"
+        },
+        {
+            "type": "java",
+            "name": "Launch grec",
+            "request": "launch",
+            "mainClass": "grec",
+            "projectName": "mway_3dc34abc"
+        }
+    ]
+}
