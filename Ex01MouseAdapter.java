@@ -1,5 +1,4 @@
 import  java.awt.event.*;
-import  java.awt.Color;
 
 public class Ex01MouseAdapter extends MouseAdapter{
 	Ex01  ex01 = null;

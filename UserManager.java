@@ -50,9 +50,6 @@ public class UserManager{
 
 					break;
 				}
-				else if(line == null){
-					break;
-				}
 			}
 			reader.close();
 			is.close();

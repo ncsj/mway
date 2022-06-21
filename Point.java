@@ -45,8 +45,5 @@ public class Point{
 		return s;
 	}
 
-	public static void main(String args[]){
-		Point p = new Point(args[0],args[1]);
-	}
 
 }

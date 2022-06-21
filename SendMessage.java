@@ -4,7 +4,7 @@ import  java.awt.event.*;
 import  java.io.*;
 import  java.util.ArrayList;
 import  java.util.Calendar;
-import  java.util.Date;
+// import  java.util.Date;
 
 public class SendMessage extends Dialog{
 	Ex01  ex01 = null;

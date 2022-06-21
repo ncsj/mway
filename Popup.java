@@ -100,6 +100,5 @@ public class Popup extends Window{
 		setVisible(false);
 		dispose();
 
-		this.popup = null;
 	}
 }

@@ -15,8 +15,6 @@ public class PointLoader{
 			InputStreamReader is = new InputStreamReader(fin);
 			BufferedReader reader = new BufferedReader(is);
 
-			int err   = 0;
-			int count = 0;
 			ArrayList <Point> array = new ArrayList <Point> ();
 			while(true){
 				String line = reader.readLine();
@@ -35,17 +33,14 @@ public class PointLoader{
 						}
 
 						array.add(point);
-						count++;
+						// count++;
 					}
 				}
 				catch(Exception e){
 					// System.out.println(e.toString());
-					err++;
 				}
 			}
 
-			// System.out.println("COUNT : " + count);
-			// System.out.println("ERROR : " + err);
 
 			reader.close();
 			is.close();
@@ -69,8 +64,6 @@ public class PointLoader{
 			InputStreamReader is = new InputStreamReader(fin);
 			BufferedReader reader = new BufferedReader(is);
 
-			int err   = 0;
-			int count = 0;
 			ArrayList <Point> array = new ArrayList <Point> ();
 			while(true){
 				String line = reader.readLine();
@@ -125,18 +118,15 @@ public class PointLoader{
 							}
 							
 							array.add(point);
-							count++;
+						//	count++;
 						}
 					}
 				}
 				catch(Exception e){
-					// System.out.println(e.toString());
-					err++;
+					System.out.println(e.toString());
 				}
 			}
 
-			// System.out.println("COUNT : " + count);
-			// System.out.println("ERROR : " + err);
 
 			reader.close();
 			is.close();
