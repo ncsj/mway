@@ -531,7 +531,7 @@ public class Ex01 extends Frame implements Runnable{
 	}
 
 	void openPointDialog(int x,int y){
-//		PointDialog dlg = new PointDialog(this,x,y);
+		new PointDialog(this,x,y);
 	}
 
 	void addPoint(Point point){
